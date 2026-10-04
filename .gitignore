@@ -1,0 +1,26 @@
+# .gitignore
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pdb
+*.egg-info/
+.venv/
+venv/
+.env
+
+# TensorFlow / model artifacts
+backend/models/
+*.h5
+*.keras
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
